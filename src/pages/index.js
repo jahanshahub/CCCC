@@ -7,7 +7,8 @@ import InfoSection from '../components/InfoSection';
 import {
   homeObjOne,
   homeObjTwo,
-  homeObjThree
+  homeObjThree,
+  // homeObjFour
 } from '../components/InfoSection/Data';
 import Services from '../components/Services';
 
@@ -22,10 +23,12 @@ function Home() {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />
+      {/* <InfoSection {...homeObjFour} /> */}
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
       <Services />
       <InfoSection {...homeObjThree} />
+
       <Footer />
     </>
   );
