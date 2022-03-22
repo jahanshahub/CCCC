@@ -53,21 +53,21 @@ export const homeObjThree = {
   darkText: true
 };
 
-export const homeObjFour = {
-  id: 'announcement',
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
-  topLine: 'ATTENTION TO ALL PENGUIN PUNK HOLDERS ',
-  headline: 'PenguinPunk BSC holder? Get exclusive access to Combat Critters!',
-  description:
-    "We're offering all PenguinPunkBSC holders the opportunity to get early access to our whitelist, with potential to integrate your penguin alongside your critter in the future!",
-  buttonLabel: 'Join the Club',
-  imgStart: false,
-  img: require('../../images/critter1.png'),
-  alt: 'Papers',
-  dark: false,
-  primary: true,
-  darkText: true
-};
+// export const homeObjFour = {
+//   id: 'announcement',
+//   lightBg: true,
+//   lightText: false,
+//   lightTextDesc: false,
+//   topLine: 'ATTENTION TO ALL PENGUIN PUNK HOLDERS ',
+//   headline: 'PenguinPunk BSC holder? Get exclusive access to Combat Critters!',
+//   description:
+//     "We're offering all PenguinPunkBSC holders the opportunity to get early access to our whitelist, with potential to integrate your penguin alongside your critter in the future!",
+//   buttonLabel: 'Join the Club',
+//   imgStart: false,
+//   img: require('../../images/critter1.png'),
+//   alt: 'Papers',
+//   dark: false,
+//   primary: true,
+//   darkText: true
+// };
 

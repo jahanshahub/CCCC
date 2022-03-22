@@ -1,4 +1,5 @@
 import React from 'react';
+import image from '../../images/CartoonBg1.svg'
 import { Button } from '../ButtonElements';
 import {
   InfoContainer,
@@ -12,7 +13,9 @@ import {
   Subtitle,
   BtnWrap,
   ImgWrap,
-  Img
+  Img,
+  ImageBg1,
+  BgImage
 } from './InfoElements';
 
 const InfoSection = ({
@@ -29,12 +32,16 @@ const InfoSection = ({
   primary,
   darkText,
   dark,
-  dark2
+  dark2,
+  image
 }) => {
   console.log(primary);
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id}>
+        <ImageBg1> 
+          <BgImage src={image} type='image/png' />
+          </ImageBg1>
         <InfoWrapper>
           <InfoRow imgStart={imgStart}>
             <Column1>

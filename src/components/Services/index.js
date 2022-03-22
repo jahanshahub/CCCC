@@ -9,13 +9,16 @@ import {
   ServicesCard,
   ServicesIcon,
   ServicesH2,
-  ServicesP
+  ServicesP,
+  // ServicesBg  
 } from './ServicesElements';
+
 
 const Services = () => {
   return (
     <ServicesContainer id='services'>
       <ServicesH1>Major Ecosystem Features</ServicesH1>
+
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1} />

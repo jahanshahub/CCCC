@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+// import BackgroundImg from '../../images/woodframe.png'
 
 export const ServicesContainer = styled.div`
   height: 800px;
@@ -16,6 +17,21 @@ export const ServicesContainer = styled.div`
     height: 1300px;
   }
 `;
+
+export const ServicesBg = styled.div`
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 100%;
+overflow: hidden;
+`
+
+// export const ImageBg = styled.img `
+//  background-image: url{BackgroundImg}; 
+// `
 
 export const ServicesWrapper = styled.div`
   max-width: 1000px;

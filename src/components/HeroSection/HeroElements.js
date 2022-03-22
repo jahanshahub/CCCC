@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { MdKeyboardArrowRight, MdArrowForward } from 'react-icons/md';
+// import Logo from "../../images/woodframe.png"
 
 export const HeroContainer = styled.div`
   background: #0c0c0c;
@@ -91,6 +92,7 @@ export const HeroContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
 `;
 
 export const HeroH1 = styled.h1`

@@ -1,14 +1,27 @@
 import styled from 'styled-components';
+import Cartbg from '../../images/CartoonBg1.svg'
 
 export const InfoContainer = styled.div`
   color: #fff;
   background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
 
-  @media screen and (max-width: 768px) {
-    padding: 100px 0;
-  }
+
+
 `;
 
+export const ImageBg1 = styled.div `
+background-image: url${Cartbg};
+background-repeat: no-repeat;
+background-size: cover;
+background-origin: border-box;
+z-index: 99;
+
+`
+
+export const BgImage = styled.div`
+width:100%;
+height:100%;
+`
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
@@ -19,6 +32,7 @@ export const InfoWrapper = styled.div`
   margin-left: auto;
   padding: 0 24px;
   justify-content: center;
+  
 `;
 
 export const InfoRow = styled.div`
