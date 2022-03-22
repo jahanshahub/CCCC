@@ -26,72 +26,34 @@ export const NavbarContainer = styled.div`
   z-index: 1;
   width: 100%;
   padding: 0 24px;
-  max-width: 1440px;
+  max-width: 1475px;
 `;
 
 export const LogoIm = styled.img`
-width:100px;
-height:100px;
-max-height: 100%;
-position: relative;
-display:block;
-display:flex;
-top: 0px;
-padding: 15px;
-z-index: 9;
-margin-top: -12px;
-margin-left: -100px;
-margin-right: 10px;
-justify-items: right;
-align-items: left;
-
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-}
-
-@media screen and (max-width: 1400px) {
-  transition: 0.8s all ease;
-
-  padding: 10px;
-
-
-
-}
+width: 75px;
+justify-self: flex-start
+height: 75px;
+padding: 10px;
+margin-left: 10px;
  `
 
 
-export const LogoContainer = styled(LinkR) `
+export const LogoContainer = styled.div `
 position: absolute;
+left: 10px;
+height: 50%;
+width: 50%;
+padding: 5 5px;
 justify-self: flex-start;
- align-items: left;
- height:100%
- width: 100%;
- z-index:99;
- justify-self: flex-start;
- cursor: pointer;
- font-size: 1.5rem;
- display: flex;
- align-items: center;
- 
- @media screen and (max-width: 90px) {
-  transition: 0.8s all ease;
 
-}
-.responsive {
-  padding: 0 6px;
-  float: right;
-  width: 24.99999%;
-}
 
-@media screen and (max-width: 300px) {
-  transition: 0.8s all ease;
 
-  padding: 10px;
 
 
 `
+
+
+
 
 export const NavLogo = styled(LinkR)`
   color: #fff;
@@ -100,9 +62,23 @@ export const NavLogo = styled(LinkR)`
   font-size: 1.5rem;
   display: flex;
   align-items: center;
-  margin-left: 24px;
+
+  padding-right:1px;
+  margin-top: 0px;
   font-weight: bold;
   text-decoration: none;
+
+  @media screen and (max-width: 1500px) {
+    margin-left: 100px;
+    font-size: 1rem;
+    
+   transition: 0.8s ease-in-out;
+
+ @media screen and (max-width: 1450px) {
+   margin-left: 10px;
+   font-size: 1.25rem;
+   padding-left: 75px;
+   transition: 0.8s ease-in-out;
 `;
 
 export const MobileIcon = styled.div`

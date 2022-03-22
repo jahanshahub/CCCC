@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 export const FooterContainer = styled.footer`
   background-color: #101522;
+
 `;
 
 export const FooterWrap = styled.div`
@@ -20,17 +21,10 @@ export const FooterLinksContainer = styled.div`
   justify-content: center;
 
   @media screen and (max-width: 820px) {
-    padding-top: 32px;
+    padding-top: 10px;
   }
 `;
 
-export const FooterLinksWrapper = styled.div`
-  display: flex;
-
-  @media screen and (max-width: 820px) {
-    flex-direction: column;
-  }
-`;
 
 export const FooterLinkItems = styled.div`
   display: flex;
