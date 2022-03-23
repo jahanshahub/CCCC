@@ -4,18 +4,23 @@ import Cartbg from '../../images/CartoonBg1.svg'
 export const InfoContainer = styled.div`
   color: #fff;
   background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
-  background-image: url(${require('../../images/CartoonBg1.svg')});
+background-image: url(${require('../../images/CartoonBg1.svg')});
  
   background-size: 100% 150%;
-  background-color: #010606;
+  // background-color: #010606;
   background-attachment:fixed;
 
-  @media screen and (max-width: 960px) {
-    background-size: 300% 200%;
+@media screen and (max-width: 960px) {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 400% 400%;
 
-    @media screen and (max-width: 300px) {
-      background-size: 900% 900%;
-  }
+@media screen and (max-width: 300px) {
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+
+
 
   }
 `;

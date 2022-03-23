@@ -1,7 +1,7 @@
 export const homeObjOne = {
   id: 'about',
-  lightBg: true,
-  lightText: false,
+  lightBg: false,
+  lightText: true,
   lightTextDesc: false,
   topLine: 'Creative Cartoon Fun',
   headline: 'Get your hands on one of 4,444 Critters available',
@@ -12,8 +12,8 @@ export const homeObjOne = {
   img: require('../../images/battle.png'),
   alt: 'Critter Fight',
   dark: false,
-  primary: false,
-  darkText: true,
+  primary: true,
+  darkText: false,
 };
 
 export const homeObjTwo = {
