@@ -1,7 +1,7 @@
 import React from 'react';
 import Icon1 from '../../images/svg-1.svg';
-import Icon2 from '../../images/svg-3.svg';
-import Icon3 from '../../images/svg-5.svg';
+import Icon2 from '../../images/Bang.png';
+import Icon3 from '../../images/3dgamec.png';
 import {
   ServicesContainer,
   ServicesH1,
@@ -38,7 +38,7 @@ const Services = () => {
           <ServicesIcon src={Icon3} />
           <ServicesH2> Game Development</ServicesH2>
           <ServicesP>
-            Transitioning our 2D world into the next stage of engagement, allowing users to use their NFTs in real time as they interact in a 3D environment - did someone sat "Critterverse"?
+            Transitioning our 2D world into the next stage of development, allowing users to use their NFTs in real time as they interact in a 3D environment - did someone say "Critterverse"?
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>
