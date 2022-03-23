@@ -18,9 +18,9 @@ export const homeObjOne = {
 
 export const homeObjTwo = {
   id: 'discover',
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
   topLine: 'Become a Part of The Critterverse',
   headline: 'See your Critter in action online and on tv',
   description:
@@ -31,7 +31,7 @@ export const homeObjTwo = {
   alt: 'Piggybank',
   dark: false,
   primary: false,
-  darkText: true,
+  darkText: false,
   
 };
 
