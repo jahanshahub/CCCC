@@ -1,16 +1,18 @@
 import styled from 'styled-components';
 import { MdKeyboardArrowRight, MdArrowForward } from 'react-icons/md';
-// import Logo from "../../images/woodframe.png"
+
 
 export const HeroContainer = styled.div`
   background: #0c0c0c;
+  
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 800px;
+  height: 968px;
   position: relative;
   z-index: 1;
+  
 
   :before {
     content: '';
@@ -46,6 +48,7 @@ export const HeroBg = styled.div`
   width: 100%;
   height: 100%;
   overflow: hidden;
+  
 `;
 
 export const VideoBg = styled.video`
@@ -54,6 +57,8 @@ export const VideoBg = styled.video`
   -o-object-fit: cover;
   object-fit: cover;
   background: #232a34;
+  border-style: solid;
+  border-width: 0 0px 25px 0px;
 `;
 
 export const LogoIm = styled.img`

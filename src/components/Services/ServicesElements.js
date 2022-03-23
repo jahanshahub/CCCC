@@ -10,11 +10,11 @@ export const ServicesContainer = styled.div`
   background: #010606;
 
   @media screen and (max-width: 768px) {
-    height: 1200px;
+    height: 1400px;
   }
 
   @media screen and (max-width: 480px) {
-    height: 1300px;
+    height: 1600px;
   }
 `;
 
@@ -40,7 +40,7 @@ export const ServicesWrapper = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   grid-gap: 25px;
-  padding: 10px 10px;
+  padding: 15px 15px;
 
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
@@ -48,7 +48,7 @@ export const ServicesWrapper = styled.div`
 
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
-    padding: 0 20px;
+    padding: 0px 40px;
   }
 `;
 

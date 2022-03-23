@@ -42,7 +42,7 @@ background-origin: content-box;
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 860px;
+  height: 768px;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
@@ -69,7 +69,7 @@ export const InfoRow = styled.div`
 
 export const Column1 = styled.div`
   margin-bottom: 15px;
-  padding: 0 15px;
+  padding: 0 10px;
   grid-area: col1;
   
 `;
