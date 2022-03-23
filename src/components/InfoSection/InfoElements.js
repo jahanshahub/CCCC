@@ -12,6 +12,9 @@ export const InfoContainer = styled.div`
 
   @media screen and (max-width: 960px) {
     background-size: 300% 200%;
+
+    @media screen and (max-width: 300px) {
+      background-size: 300% 200%;
   }
 
   }
