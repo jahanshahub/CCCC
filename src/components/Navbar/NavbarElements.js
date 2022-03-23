@@ -16,6 +16,7 @@ export const Nav = styled.nav`
 
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
+
   }
 `;
 
@@ -27,6 +28,7 @@ export const NavbarContainer = styled.div`
   width: 100%;
   padding: 0 24px;
   max-width: 1475px;
+  
 `;
 
 export const LogoIm = styled.img`

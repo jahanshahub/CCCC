@@ -4,23 +4,32 @@ import Cartbg from '../../images/CartoonBg1.svg'
 export const InfoContainer = styled.div`
   color: #fff;
   background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
+  background-image: url(${require('../../images/CartoonBg1.svg')});
+ 
+  background-size: 100% 150%;
+  background-color: #010606;
+  background-attachment:fixed;
 
+  @media screen and (max-width: 960px) {
+    background-size: 300% 200%;
+  }
 
-
+  }
 `;
 
 export const ImageBg1 = styled.div `
-background-image: url${Cartbg};
-background-repeat: no-repeat;
-background-size: cover;
-background-origin: border-box;
-z-index: 99;
+height:auto;
+width:auto;
 
 `
 
-export const BgImage = styled.div`
-width:100%;
-height:100%;
+export const BgImage = styled.img`
+
+background-image; url${Cartbg};
+background-repeat: no-repeat;
+background-size: cover;
+background-origin: content-box;
+
 `
 export const InfoWrapper = styled.div`
   display: grid;
@@ -39,6 +48,7 @@ export const InfoRow = styled.div`
   display: grid;
   grid-auto-columns: minmax(auto, 1fr);
   align-items: center;
+  
   grid-template-areas: ${({ imgStart }) =>
     imgStart ? "'col2 col1'" : "'col1 col2'"};
   /* Must use '\' css class \'' */
@@ -53,6 +63,7 @@ export const Column1 = styled.div`
   margin-bottom: 15px;
   padding: 0 15px;
   grid-area: col1;
+  
 `;
 
 export const Column2 = styled.div`
