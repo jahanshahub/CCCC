@@ -12,7 +12,7 @@ export const homeObjOne = {
   img: require('../../images/battle.png'),
   alt: 'Critter Fight',
   dark: false,
-  primary: true,
+  primary: false,
   darkText: false,
 };
 
@@ -22,7 +22,7 @@ export const homeObjTwo = {
   lightText: true,
   lightTextDesc: true,
   topLine: 'Become a Part of The Critterverse',
-  headline: 'See your Critter in action online and on tv',
+  headline: 'See your Critter in action online',
   description:
     'One of the best parts of the Crazy Critter Combat Club is that you can both watch and interact as your critter. Stay tuned for exciting animated shorts for your viewing pleasure',
   buttonLabel: 'Learn More',
@@ -38,19 +38,19 @@ export const homeObjTwo = {
 export const homeObjThree = {
   id: 'signup',
   lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
+  lightText: true,
+  lightTextDesc: true,
   topLine: 'Minting Date Coming Soon',
   headline: 'Be among the first to get a Combat Critter',
   description:
     "Join our social channels and keep a close eye on how you can get your hands on your very own Combat Critter to watch and play with.",
-  buttonLabel: 'Join the Club',
+  buttonLabel: 'Mint Coming Soon',
   imgStart: false,
   img: require('../../images/critter1.png'),
   alt: 'Papers',
   dark: false,
   primary: false,
-  darkText: true
+  darkText: false,
 };
 
 // export const homeObjFour = {
