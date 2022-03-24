@@ -11,16 +11,16 @@ export const homeObjOne = {
   imgStart: false,
   img: require('../../images/battle.png'),
   alt: 'Critter Fight',
-  dark: false,
-  primary: false,
+  dark: true,
+  primary: true,
   darkText: false,
 };
 
 export const homeObjTwo = {
   id: 'discover',
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: 'Become a Part of The Critterverse',
   headline: 'See your Critter in action online',
   description:
@@ -31,14 +31,14 @@ export const homeObjTwo = {
   alt: 'Piggybank',
   dark: false,
   primary: false,
-  darkText: false,
+  darkText: true,
   
 };
 
 export const homeObjThree = {
   id: 'signup',
   lightBg: true,
-  lightText: true,
+  lightText: false,
   lightTextDesc: true,
   topLine: 'Minting Date Coming Soon',
   headline: 'Be among the first to get a Combat Critter',
@@ -50,7 +50,7 @@ export const homeObjThree = {
   alt: 'Papers',
   dark: false,
   primary: false,
-  darkText: false,
+  darkText: true,
 };
 
 // export const homeObjFour = {

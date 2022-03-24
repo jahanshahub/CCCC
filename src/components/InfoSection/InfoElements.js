@@ -4,7 +4,6 @@ import Cartbg from '../../images/CartoonBg1.svg'
 export const InfoContainer = styled.div`
   color: #fff;
   background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
-background-image: url(${require('../../images/CartoonBg1.svg')});
  
   background-size: 100% 150%;
   // background-color: #010606;
