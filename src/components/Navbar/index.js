@@ -69,7 +69,7 @@ const Navbar = ({ toggle }) => {
                   exact='true'
                   offset={-80}
                 >
-                  Roadmap
+                  Shorts
                 </NavLinks>
               </NavItem>
               <NavItem>

@@ -38,7 +38,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             exact='true'
             offset={-80}
           >
-            Roadmap
+            Shorts
           </SidebarLink>
           <SidebarLink
             to='services'
