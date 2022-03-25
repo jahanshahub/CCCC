@@ -4,7 +4,7 @@ export const homeObjOne = {
   lightText: true,
   lightTextDesc: false,
   topLine: 'Creative Cartoon Fun',
-  headline: 'Get your hands on one of 4,444 Critters available',
+  headline: 'Get your hands on one of 5,555 Critters available',
   description:
     'Find unique critters with different abilities, objects and tools to use along in their adventures. Watch YOUR critter take on the world',
   buttonLabel: 'Get Started',
